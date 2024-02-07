@@ -1,0 +1,131 @@
+.container{
+    width:690px;
+    height: 800px;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    background-image: linear-gradient(180deg,#150a4f 0%,#91c5f3 100%);
+
+
+}
+.top-bar{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    padding-top: 60px;
+}
+.search_icon img {
+    width: 60px; /* Adjust the width as needed */
+    height: 60px;
+     /* Adjust the height as needed */
+     justify-content: center;
+     align-items: baseline;
+     border-radius: 40px;
+     cursor: pointer;
+  }
+.top-bar input{
+    display: flex;
+    width: 362px;
+    height: 60px;
+    background: #e3e2e9;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: #0d6bc8;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.weather-image img{
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    margin-top: 29px;
+
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        
+}
+
+.weather-temp
+{
+    display: flex;
+    justify-content: center;
+    color: #e3e2e9;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-size: 60px;
+    font-weight: 400;
+    gap:5px;
+}
+
+.data-container{
+    margin-top: 50px;
+    color: #e3e2e9;
+    display: flex;
+    justify-content: center;
+}
+
+
+.element{
+    margin: auto;
+    display: inline-flex;
+    color: black;
+    gap: 1px;
+    height:100px;
+    width:50px;
+    padding-right: 20%;
+    
+}
+
+.data{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.text
+{
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.icon{
+    margin-top: 10px;
+    
+}
+.element1{
+    margin: auto;
+    display: inline-flex;
+    
+    gap: 20px;
+    height:100px;
+    width:50px;
+    padding-right: 20%;
+    
+}
+
+.data1{
+    font-size: 10px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.text1
+{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.icon{
+    margin-top: 10px;
+    
+}
